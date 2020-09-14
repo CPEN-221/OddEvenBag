@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
+test.testLogging {
+    exceptionFormat = "full";
+    events "failed", "passed", "skipped", "standardOut", "standardError"
+}
