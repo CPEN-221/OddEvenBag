@@ -1,7 +1,7 @@
 OddEvenBag: A Datatype Exercise
 =========
 
-> The skeleton source code for this question is in the package `oddevenbag`. You have to implement the required method in the class `OddEvenBag`. You may import the provided code as a Gradle project in Eclipse.
+> The skeleton source code for this question is in the package `oddevenbag`. You have to implement the required method in the class `OddEvenBag`. You may import the provided code as a Gradle project into your IDE (IntelliJ IDEA, VS Code, Eclipse, ...).
 
 An `OddEvenBag` allows us to store `int`s (including duplicates) and perform some useful operations on the collection of `int`s.
 
